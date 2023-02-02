@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:yutkidea/LoginPage.dart';
+import 'package:yutkidea/Verification.dart';
 import 'package:yutkidea/Widget/ButtonWidget.dart';
 import 'package:yutkidea/Widget/textform.dart';
+
 
 class SignUp extends StatelessWidget {
   const SignUp({super.key});
@@ -56,7 +58,7 @@ class SignUp extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(top: 70),
                 child: ButtonWidget(text: 'Signup',onPressed: (){
-
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Verify(),));
                 }),
               ),
               Padding(

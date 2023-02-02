@@ -39,6 +39,10 @@ dependencies:
   flutter_page_indicator:
   transformer_page_view:
   flutter_image_slideshow: ^0.1.4
+  jwt_decoder: ^2.0.1
+  dio: ^4.0.6
+  http:
+
 
 
 dev_dependencies:
